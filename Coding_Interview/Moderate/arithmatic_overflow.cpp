@@ -2,27 +2,31 @@
 using namespace std;
 
 
-#define PRECISION(a, count) \
-do{\
-    while(a != 0) \
-    {\
-	if(a%2 == 1) \
-	    count++; \
-	a = a/2; \
-    }\
-}while(0)
+#define PRECISION(uintmax_t) pop_count(uintmax_t)
+
+int pop_count(uintmax_t a)
+{
+    int count = 0;
+    while(a != 0) 
+    {
+	if(a%2 == 1) 
+	    count++; 
+	a = a/2; 
+    }
+    return count;
+}
 
 
 
-template <class T>
 int
-addition_overflow(T a, T b)
+addition_overflow(int a, int b)
 {
     if( (b>0 && a> INT_MAX-b) ||
 	    (b<0 && a< INT_MIN-b))
     {
 	return -1;
     }
+    return 0;
 
     cout << "No overflow" << endl;
 }
@@ -47,7 +51,7 @@ multiplication_overflow(int a, int b)
 	if(b > 0)
 	{
 	    if(a > INT_MAX/b)
-		return -1
+		return -1;
 	}
 	else if(b < 0)
 	{
@@ -92,6 +96,8 @@ modulo(int a, int b)
 int
 shift(int a, int b)
 {
+    int count=0;
+
     if(a<0 || b<0 || 
 	    b >= PRECISION(INT_MAX) || a > PRECISION(INT_MAX) >> b)
 	return -1;
@@ -104,5 +110,34 @@ unary_negation(int a)
 {
     if(a == INT_MIN)
 	return -1;
+    return 0;
+}
+
+
+int
+main()
+{
+    int a, b;
+    // Testing integer overflow
+    // Addition
+    a = INT_MAX -3;
+    b = 10;
+    if(addition_overflow(a, b) == -1)
+	cout<< "Addition Integer Overflow" << endl;
+    else
+	cout <<"No overflow" << endl;
+
+    b = -10;
+    if(substraction_overflow(a, b) == -1)
+	cout << "Substraction Integer overflow" << endl;
+    else
+	cout << "Substraction no overflow" << endl;
+
+    b = 2;
+    if(multiplication_overflow(a, b) == -1)
+	cout << "Multiplication overflow" << endl;
+    else
+	cout << "* No overflow" << endl;
+
     return 0;
 }
