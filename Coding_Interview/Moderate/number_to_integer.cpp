@@ -84,6 +84,8 @@ main()
 	string str = number_to_string(i);
 	cout << "Number (" << i << " ) = " << str << endl;
     }
+    string str1 = number_to_string(2999);
+    cout << "Number (" << 1999 << " ) = " << str1 << endl;
 
     return 0;
 }
