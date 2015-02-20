@@ -203,5 +203,8 @@ main()
     result = evaluate_infix(infix);
     cout<< infix << " = " << result << endl;
 
+    strcpy(infix, "100 * ( 2 + 12 ) / 14");
+    result = evaluate_infix(infix);
+    cout<< infix << " = " << result << endl;
     return 0;
 }
