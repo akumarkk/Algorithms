@@ -1,0 +1,208 @@
+GET /hprofile-xpa1/v/t1.0-1/c0.0.64.64/p64x64/1528635_10201743278596692_2063375454_n.jpg?oh=4a421d16691a8546749d8656d9df1cb9&oe=565F7D67 HTTP/1.1
+Host: scontent.fsnc1-1.fna.fbcdn.net:443
+Accept: image/webp,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8
+Referer: https://www.facebook.com/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
+
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+cache-control: max-age=1209600, no-transform
+content-length: 2257
+content-type: image/jpeg
+date: Mon, 14 Sep 2015 05:07:25 GMT
+expires: Sat, 26 Sep 2015 03:26:30 GMT
+last-modified: Fri, 27 Dec 2013 03:28:16 GMT
+status: 200 OK
+timing-allow-origin: *
+version: HTTP/1.1
+x-fb-edge-debug: YQgBIs1vQsOPmIM9xgS1wWOfwrhexZ0nnXUF3eVAEFE6EFVr_9PQ7NUcsNX6ZtZeDwXJqKVnhNAUQn5KsB5NoA
+
+GET /hprofile-xfp1/v/t1.0-1/p64x64/522029_10152861162702632_2345679052658897565_n.jpg?oh=3a2f3f3846140f7257c60fa37f695a55&oe=5671CE73 HTTP/1.1
+Host: scontent.fsnc1-1.fna.fbcdn.net:443
+Accept: image/webp,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8
+Referer: https://www.facebook.com/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
+
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+cache-control: max-age=1209600, no-transform
+content-length: 1852
+content-type: image/jpeg
+date: Tue, 15 Sep 2015 05:44:01 GMT
+expires: Fri, 18 Sep 2015 19:56:50 GMT
+last-modified: Sun, 22 Mar 2015 07:24:48 GMT
+status: 200 OK
+timing-allow-origin: *
+version: HTTP/1.1
+x-fb-edge-debug: eSuLkvSzvPWKhm-vFicBY76mNjab0JrWzt_XFgvy2K64bjR588acd19UK_HfdjQ56N-1PcuONi0vmgroQbEhCw
+
+POST /chat/user_info/ HTTP/1.1
+Host: www.facebook.com:443
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.8
+Content-Type: application/x-www-form-urlencoded
+Cookie: datr=mLfSVTqWLkFl650dWEiPU15_; lu=RA6ACQi9DAlM-LEHywrEX9hw; _ga=GA1.2.1783832700.1440395003; c_user=1700904638; fr=00t2q3wAL854kXOfa.AWWkE4_Eekz0mOB_J1J-Ay5qVgo.BV0reg.YF.FXj.0.AWXgPb1U; xs=100%3AWMAbaumoePmEsw%3A2%3A1439872928%3A16779; csm=2; s=Aa5onEMZ5PnLG1H5.BV0reg; p=-2; a11y=%7B%22sr%22%3A0%2C%22sr-ts%22%3A1439872935810%2C%22jk%22%3A0%2C%22jk-ts%22%3A1439872935810%2C%22kb%22%3A1%2C%22kb-ts%22%3A1442341213180%2C%22hcm%22%3A0%2C%22hcm-ts%22%3A1439872935810%7D; act=1442355908455%2F25; presence=EDvF3EtimeF1442358042EuserFA21700904638A2EstateFDsb2F1442340820175Et2F_5b_5dElm2FnullEuct2F1442340820176EtrFA2loadA2EtwF3104262762EatF1442355907545G442358042871CEchFDp_5f1700904638F17CC
+Origin: https://www.facebook.com
+Referer: https://www.facebook.com/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
+
+HTTP/1.1 200 OK
+cache-control: private, no-cache, no-store, must-revalidate
+content-encoding: gzip
+content-security-policy: default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' *.akamaihd.net *.atlassolutions.com blob: chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl;style-src * 'unsafe-inline';connect-src *.facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com 127.0.0.1:*;
+content-type: application/x-javascript; charset=utf-8
+date: Tue, 15 Sep 2015 23:16:52 GMT
+expires: Sat, 01 Jan 2000 00:00:00 GMT
+pragma: no-cache
+status: 200 OK
+strict-transport-security: max-age=15552000; preload
+vary: Accept-Encoding
+version: HTTP/1.1
+x-content-type-options: nosniff
+x-fb-debug: w0q/69gDOW2+rRTK7V5/EbFH3Z2WU0jsRmNnE/HtUNtc/2cLif93kkDJ52InCMi2RtYt46SiEmbYovayV2b9PA==
+x-frame-options: DENY
+x-xss-protection: 0
+
+GET /hprofile-xpa1/v/t1.0-1/c11.0.64.64/p64x64/10458869_1502003543367009_6546004093904913484_n.jpg?oh=6bfd629fafe5cab69954ed0d17c57efe&oe=56A41D6E HTTP/1.1
+Host: scontent.fsnc1-1.fna.fbcdn.net:443
+Accept: image/webp,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8
+Referer: https://www.facebook.com/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
+
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+cache-control: max-age=1209600, no-transform
+content-length: 2134
+content-type: image/jpeg
+date: Sun, 13 Sep 2015 05:32:09 GMT
+expires: Sun, 27 Sep 2015 05:32:09 GMT
+last-modified: Tue, 15 Jul 2014 05:48:35 GMT
+status: 200 OK
+timing-allow-origin: *
+version: HTTP/1.1
+x-fb-edge-debug: uK6Jq4Yn1hY7H1jtr7KdVNb6wk15FJV60cpTBJnP5gl2c9r1wqGCLa9TgvYWPzvyGqCHvFDh44T1Sy6fQQt_ug
+
+GET /hprofile-xpf1/v/t1.0-1/c0.1.64.64/p64x64/11900014_10205023767653991_8238203004137091175_n.jpg?oh=aae83269245c26abeed753dcb852ab42&oe=56A1B5DC HTTP/1.1
+Host: scontent.fsnc1-1.fna.fbcdn.net:443
+Accept: image/webp,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8
+Referer: https://www.facebook.com/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
+
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+cache-control: max-age=1209600, no-transform
+content-length: 2104
+content-type: image/jpeg
+date: Wed, 09 Sep 2015 02:23:17 GMT
+expires: Sat, 19 Sep 2015 17:09:11 GMT
+last-modified: Sat, 29 Aug 2015 03:23:22 GMT
+status: 200 OK
+timing-allow-origin: *
+version: HTTP/1.1
+x-fb-edge-debug: QFRDc5pc6l1fJy48fNDhfdga_kZ3EpIRgbV7G6pncgIZkZZWe_4brxz8hAgqCdnSQKk_P7gvFl2XFosu5bOX7g
+
+GET /hprofile-xaf1/v/t1.0-1/c2.0.64.64/p64x64/1489270_10201715047292636_1035954682_n.jpg?oh=4d11012ed20648789bab85cc667b00b9&oe=566B81C6 HTTP/1.1
+Host: scontent.fsnc1-1.fna.fbcdn.net:443
+Accept: image/webp,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8
+Referer: https://www.facebook.com/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
+
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+cache-control: max-age=1209600, no-transform
+content-length: 1958
+content-type: image/jpeg
+date: Wed, 09 Sep 2015 02:48:40 GMT
+expires: Wed, 23 Sep 2015 00:30:38 GMT
+last-modified: Tue, 31 Dec 2013 08:35:26 GMT
+status: 200 OK
+timing-allow-origin: *
+version: HTTP/1.1
+x-fb-edge-debug: RU5e5cAoFOnE0zD-bfOHUXZ8cJ7-76Adikl9p_J8i_QHn4EPCHUFq3XJ6vh7UT_XqHUo-CqDlVS9-bIfyvXKUQ
+
+GET /pull?channel=p_1700904638&seq=54&partition=-2&clientid=684ecde2&cb=a0ss&idle=3058&cap=8&msgs_recv=54&uid=1700904638&viewer_uid=1700904638&sticky_token=420&sticky_pool=frc3c09_chat-proxy&traceid=zREBc HTTP/1.1
+Host: 1-edge-chat.facebook.com:443
+Accept: */*
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: datr=mLfSVTqWLkFl650dWEiPU15_; lu=RA6ACQi9DAlM-LEHywrEX9hw; _ga=GA1.2.1783832700.1440395003; c_user=1700904638; fr=00t2q3wAL854kXOfa.AWWkE4_Eekz0mOB_J1J-Ay5qVgo.BV0reg.YF.FXj.0.AWXgPb1U; xs=100%3AWMAbaumoePmEsw%3A2%3A1439872928%3A16779; csm=2; s=Aa5onEMZ5PnLG1H5.BV0reg; p=-2; a11y=%7B%22sr%22%3A0%2C%22sr-ts%22%3A1439872935810%2C%22jk%22%3A0%2C%22jk-ts%22%3A1439872935810%2C%22kb%22%3A1%2C%22kb-ts%22%3A1442341213180%2C%22hcm%22%3A0%2C%22hcm-ts%22%3A1439872935810%7D; act=1442355908455%2F25; presence=EDvF3EtimeF1442358042EuserFA21700904638A2EstateFDsb2F1442340820175Et2F_5b_5dElm2FnullEuct2F1442340820176EtrFA2loadA2EtwF3104262762EatF1442355907545G442358042871CEchFDp_5f1700904638F17CC
+Origin: https://www.facebook.com
+Referer: https://www.facebook.com/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
+
+HTTP/1.1 200 OK
+access-control-allow-credentials: true
+access-control-allow-origin: https://www.facebook.com
+cache-control: private, no-store, no-cache, must-revalidate
+content-length: 28
+content-type: application/json
+date: Tue, 15 Sep 2015 23:16:56 GMT
+pragma: no-cache
+status: 200 OK
+version: HTTP/1.1
+x-frame-options: DENY
+
+GET /pull?channel=p_1700904638&seq=17&partition=-2&clientid=3187ca68&cb=12jf&idle=15243&cap=8&msgs_recv=183&uid=1700904638&viewer_uid=1700904638&sticky_token=420&sticky_pool=frc3c09_chat-proxy&traceid=wv4Po HTTP/1.1
+Host: 0-edge-chat.facebook.com:443
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: __utma=248232083.1119156933.1441693998.1442324399.1442356260.3; __utmc=248232083; __utmz=248232083.1442356260.3.3.utmcsr=careercup.com|utmccn=(referral)|utmcmd=referral|utmcct=/page; _tlkio_session=TE5lbG9Hei9Udi9PUWhyQS9qY0piU0pNUXVqa2t1d0JwMHNWeXNnZCtuMCt2TTRFd3BiNDA5TlluSmEvQXBxeFlNSU1UTmFVME0xY2hHN0RvdDJFcGZDM3hkdW5qckY3V3ArZHJmT0JRcy9vdThpM3hobC8yQmVIcDZFNXJSd1dmTWg2Mnh4SXowMkphc1k3ZHo4d21VZEtnNG9YSmNXOTZtL3F1a1RGeUFWaW15UXlKRlAxamJnSERQTjZXVjNHcFBkeVJkWjQ5cUJqK0pFeGhJSnlBaURUaGlUU1pYU29yUkFnd09LY0FQYz0tLXE5NmJYaXNSMUcvMG51V0N0YTFZQmc9PQ%3D%3D--59923c5f43570d8af6adbec6c11ff49d78060a8d
+Referer: http://embed.tlk.io/careercup
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
+X-CSRF-Token: gn8tNmkPlNhrHtwPuuyhVa7SnUAHqUk5DVkUVYZpEjA=
+X-Requested-With: XMLHttpRequest
+
+HTTP/1.1 200 OK
+access-control-allow-credentials: true
+access-control-allow-origin: https://www.facebook.com
+cache-control: private, no-store, no-cache, must-revalidate
+content-length: 28
+content-type: application/json
+date: Tue, 15 Sep 2015 23:16:57 GMT
+pragma: no-cache
+status: 200 OK
+version: HTTP/1.1
+x-frame-options: DENY
+
+GET /api/chats/175275/messages?after_id=22540902 HTTP/1.1
+Host: embed.tlk.io
+Accept: */*
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: datr=mLfSVTqWLkFl650dWEiPU15_; lu=RA6ACQi9DAlM-LEHywrEX9hw; _ga=GA1.2.1783832700.1440395003; c_user=1700904638; fr=00t2q3wAL854kXOfa.AWWkE4_Eekz0mOB_J1J-Ay5qVgo.BV0reg.YF.FXj.0.AWXgPb1U; xs=100%3AWMAbaumoePmEsw%3A2%3A1439872928%3A16779; csm=2; s=Aa5onEMZ5PnLG1H5.BV0reg; p=-2; a11y=%7B%22sr%22%3A0%2C%22sr-ts%22%3A1439872935810%2C%22jk%22%3A0%2C%22jk-ts%22%3A1439872935810%2C%22kb%22%3A1%2C%22kb-ts%22%3A1442341213180%2C%22hcm%22%3A0%2C%22hcm-ts%22%3A1439872935810%7D; act=1442355908455%2F25; presence=EDvF3EtimeF1442358042EuserFA21700904638A2EstateFDsb2F1442340820175Et2F_5b_5dElm2FnullEuct2F1442340820176EtrFA2loadA2EtwF3104262762EatF1442355907545G442358042871CEchFDp_5f1700904638F17CC
+Origin: https://www.facebook.com
+Referer: https://www.facebook.com/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
+
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, private, must-revalidate
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: application/json; charset=utf-8
+Date: Tue, 15 Sep 2015 23:16:57 GMT
+ETag: W/"d751713988987e9331980363e24189ce"
+P3P: policyref="/w3c/p3p.xml", CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT", CP="CAO PSA OUR"
+Server: nginx/1.8.0 + Phusion Passenger 5.0.15
+Set-Cookie: _tlkio_session=RlUyUGU2ckFpd2lNUWJ2MFg2RWlBQU15YUZrb2JLajBUYXUwK0x0L1Q3QWpzOGRnNDZrQVpuRWx5b3RWclZyU2tGZHJPb0ZFUDBHQ2daN1V6azVXN0szdURmRWZyWDFLQWVDNFFNY0tYYXIrU0tOZW1scXlUNHUvZ0k1NVlxRVRRME03dnYveWFXdnAyclRmdnBqbGI4OE1PV3dObWpTREhOTWI3ZCtOQk5RWUF6TmZXSHJWc1VlTGRCZlBuanBXak1HVk12bUtaVWZVS0pQeWowOGdBd1F4L3h3TVZJWFc1SjNZNnQrbXZBdz0tLWNaaTlVM0dtL085NDZxOWh6WncvYmc9PQ%3D%3D--2a8363867c8be6dbb4e2fbe33c420edceb1d0ae1; domain=tlk.io; path=/; expires=Tue, 15 Mar 2016 23:16:57 -0000; HttpOnly
+Status: 200 OK
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.15
+X-Request-Id: 5865dc6c-2b98-4695-a8fb-088fedb1308d
+X-Runtime: 0.008793
+X-XSS-Protection: 1; mode=block
+
+
