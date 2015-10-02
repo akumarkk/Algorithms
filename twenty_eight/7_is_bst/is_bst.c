@@ -2,6 +2,10 @@
  *		because this approach does not verify for the grand parents and ancestors
  */
 
+/* Solution :
+ * Do in-order traversal of all the nodes
+ * Check if they are in ascending order. If not in order, it is **NOT** a BST
+ */
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
