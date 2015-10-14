@@ -1,0 +1,12 @@
+Important bit operations :
+
+1. To get the position of the right most set bit
+    log2(n & -n) + 1;
+
+2. -n : All the bits are reverted except the rightmost set bit
+    Example : -15 = 11110001
+
+3. If a number is power of 2, then 
+    num - 1 = rightmost bits will become 1's and leftmost bits will become 0's
+    num & (num-1) = 0 if only one bit is set
+
