@@ -3,6 +3,10 @@
  *  2. if k+i th item is smaller than root of MH. Replace MH root with (k+i)th element
  *
  *  Root of the MH is the kth smallest item
+ *
+ *  Complexity :
+ *	- For constructing Heap Tree for the first time, it takes O(n)
+ *	- For Heapifycation, it takes O(log n)
  */
 #include <stdio.h>
 #include <stdlib.h>
