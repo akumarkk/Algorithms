@@ -1,0 +1,7 @@
+Quick select can be implemented in 3 different ways :
+
+1. Using first item as pivot	    :	O(n)	Worst case = O(n ^ 2)
+2. Get pivot position by random()   :	Average Case = theta(n), 	Worst case = O( n ^ 2)
+3. Use median of medians	    :	Worst case   = O (n)
+
+Find the position of median of medians and exchange this element with a[low] in partition step.
