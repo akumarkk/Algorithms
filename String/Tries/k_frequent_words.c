@@ -297,23 +297,26 @@ int
 main()
 {
     char *words[] = {"Anil", "Utah", "uvce", "university", "Anil","utah", "anil", "uve", "university", "uve", "uve", "kodagu", "Slc"};
-    
+   
+    FILE *fp = fopen("./text.txt", "r"); 
+    char word[256] = "";
     int  n = 13, i;
     heap_tree_t	    *heap;
     trie_t	    *trie_node, *trie_root;
 
     // Dummy node designated as root
     trie_root = get_trie_node();
-    heap = init_heap(3);
+    heap = init_heap(5);
 
-    for(i=0; i<n; i++)
+    while(fscanf(fp, "%s", word) != EOF) 
     {
-	debug("processing word = %s", words[i]);
+	debug("processing word = %s", word);
 
-	trie_node = trie_insert(trie_root, words[i]);
-	heap = heap_insert(heap, trie_root, trie_node, words[i]);
+	trie_node = trie_insert(trie_root, word);
+	heap = heap_insert(heap, trie_root, trie_node, word);
     }
 
+    fclose(fp);
     display_heap(heap);
 
     return 0;
