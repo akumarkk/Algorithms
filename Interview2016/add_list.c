@@ -113,9 +113,14 @@ node_t *add_two_list(node_t *list1, node_t *list2)
     }
 
     root2 = add_list(smaller, bigger, &carry);
+    printf("carry = %d root2 = ", carry);
+    print_list(root2);
 
     prev->next = NULL;
     root1 = add_util(start, &carry);
+    printf("carry = %d root1 = ", carry);
+    print_list(root1);
+
     tmp = root1;
     while(tmp->next != NULL)
 	tmp = tmp->next;
@@ -125,9 +130,10 @@ node_t *add_two_list(node_t *list1, node_t *list2)
 
     if(carry > 0)
     {
+	printf("carry is left - %d\n", carry);
 	node = get_node();
 	node->data = carry;
-	node->next = root2;
+	node->next = root1;
 	return node;
     }
 
@@ -140,8 +146,8 @@ main()
 {
     node_t *root1 = get_node_data(1);
     root1->next = get_node_data(2);
-    root1->next->next = get_node_data(4);
-    root1->next->next->next = get_node_data(7);
+    //root1->next->next = get_node_data(4);
+    //root1->next->next->next = get_node_data(7);
 
     node_t *root2 = get_node_data(9);
     root2->next = get_node_data(8);
