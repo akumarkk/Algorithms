@@ -19,7 +19,19 @@ compare(const void *a, const void *b)
     return *(char *)a - *(char *)b;
 }
 
+char *
+reverse(char *str, int size)
+{
+    int i = 0, j = size -1;
 
+    while(i < j)
+    {
+	swap(str[i], str[j]);
+	i++; 
+	j--;
+    }
+    return str;
+}
 
 // returns first char which is greater than first, but smallest among all
 int
@@ -72,7 +84,10 @@ lexicographical_permutation(char *str)
 	index = get_ceil(str, i+1, len-1, str[i]);
 	swap(str[i], str[index]);
 
-	qsort(str+i+1, len-(i+1), sizeof(char), compare);
+	// This O(n^2 n!) algorithm can be improved by reversing 
+	// as all the chars after second-index will be in decreasing order
+	reverse(str+i+1, len-(i+1));
+	//qsort(str+i+1, len-(i+1), sizeof(char), compare);
     }
 
 }
