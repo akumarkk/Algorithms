@@ -2,6 +2,27 @@
 #include <string.h>
 #include <stdlib.h>
 
+/*
+private static int[][] rotateMatrixBy90Degree(int[][] matrix, int n) {
+		for (int layer = 0; layer < n / 2; layer++) {
+			int first = layer;
+			int last = n - 1 - layer;
+			for (int i = first; i < last; i++) {
+				int offset = i - first;
+				int top = matrix[first][i];
+				matrix[first][i] = matrix[last - offset][first];
+				matrix[last - offset][first] = matrix[last][last - offset];
+				matrix[last - offset][last] = matrix[i][last];
+				matrix[i][last] = top;
+			}
+		}
+		System.out.println("Matrix After Rotating 90 degree:-");
+		printMatrix(matrix, n);
+		return matrix;
+
+	}
+*/
+
 
 void
 print_matrix(int **a, int m, int n)
