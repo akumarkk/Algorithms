@@ -41,7 +41,15 @@ print_matrix(int **a, int m, int n)
     }
 }
 
-
+/* In each rotation, 
+ * - it is rotating 4 items
+ * - so it needs n/4 iterations 
+ * - It does it for n/2 rows in each iteration
+ * For 5x5 Matrix
+ *  0,0	    0,1	    0,2
+ *  1,0	    1,1	    1,2
+ *  2,0	    2,1	    2,2
+ */
 void
 inline_rotation(int **a, int rows, int cols)
 {
